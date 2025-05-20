@@ -1,0 +1,21 @@
+#Cookie-Clicker {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffcc66;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #cc9933;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#Cookie-Clicker:hover {
+    background-color: #ffdb85;
+}
+
+#Cookie-Clicker:active {
+    box-shadow: 0 2px #cc9933;
+    transform: translateY(3px);
+}
