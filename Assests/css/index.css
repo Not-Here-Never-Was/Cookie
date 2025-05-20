@@ -1,25 +1,31 @@
-body{
-    background-color: white
+body {
+    background-color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
 }
 
-#Cookie-Clicker {
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #ffcc66;
-    color: #333;
+#cookie {
+    font-size: 100px;
+    background: none;
     border: none;
-    border-radius: 10px;
-    box-shadow: 0 5px #cc9933;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: transform 0.1s ease;
 }
 
-#Cookie-Clicker:hover {
-    background-color: #ffdb85;
+#cookie:active {
+    transform: scale(0.95);
 }
 
-#Cookie-Clicker:active {
-    box-shadow: 0 2px #cc9933;
-    transform: translateY(3px);
+#counter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
